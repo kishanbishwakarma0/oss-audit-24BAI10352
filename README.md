@@ -1,4 +1,4 @@
-# oss-audit-[rollnumber]
+# oss-audit-[24BAI10352]
 
 **Open Source Software — NGMC Capstone Project**
 **VIT | Course: Open Source Software | Max Marks: 100**
@@ -9,9 +9,9 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | [Your Full Name] |
-| **Registration Number** | [Your Reg No] |
-| **Slot** | [Your Slot] |
+| **Name** | [Kishan Bishwakarma] |
+| **Registration Number** | [24BAI10352] |
+| **Slot** | [B22] |
 | **Chosen Software** | Git — Distributed Version Control System |
 | **License** | GNU General Public License v2 (GPL v2) |
 
