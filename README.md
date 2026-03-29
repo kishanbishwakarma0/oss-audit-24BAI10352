@@ -12,7 +12,7 @@
 | **Name** | Kishan Bishwakarma |
 | **Registration Number** | 24BAI10352 |
 | **Slot** | B22 |
-| **Chosen Software** | Git — Distributed Version Control System |
+| **Chosen Software** | Git Distributed Version Control System |
 | **License** | GNU General Public License v2 (GPL v2) |
 
 ---
