@@ -1,7 +1,7 @@
 # oss-audit-24BAI10352
 
-**Open Source Software — NGMC Capstone Project**
-**VIT | Course: Open Source Software | Max Marks: 100**
+**Open Source Software: NGMC Capstone Project**
+**VIT | Course: Open Source Software**
 
 ---
 
@@ -19,9 +19,9 @@
 
 ## About This Project
 
-This repository contains the shell scripts for the Open Source Audit capstone project. The chosen software is **Git** — the distributed version control system originally written by Linus Torvalds in 2005 after proprietary tools failed the Linux kernel community.
+This repository contains the shell scripts for my Open Source Audit capstone project. I chose Git, which was created by Linus Torvalds in 2005 when the Linux community needed a better tool since the earlier ones were not working well.
 
-The audit covers Git's origin story, its GPL v2 license, ethical questions in open-source development, Git's Linux footprint, and its place in the FOSS ecosystem.
+In this audit, I covered how Git started, its GPL v2 license, some ethical aspects of open source, how Git is used in Linux, and its role in the FOSS ecosystem.
 
 ---
 
@@ -41,7 +41,7 @@ oss-audit-[rollnumber]/
 
 ## Dependencies
 
-All scripts run on **Debian/Ubuntu Linux**. The following must be installed:
+All scripts run on **Ubuntu Linux**. The following must be installed:
 
 ```bash
 sudo apt update
@@ -54,7 +54,7 @@ No additional Python, Node.js, or third-party tools are required.
 
 ## How to Run Each Script
 
-### Setup — Clone the Repository
+### Setup: Clone the Repository
 
 ```bash
 git clone https://github.com/[your-github-username]/oss-audit-[rollnumber].git
@@ -64,7 +64,7 @@ chmod +x *.sh
 
 ---
 
-### Script 1 — System Identity Report
+### Script 1: System Identity Report
 
 Displays a welcome screen with distro name, kernel version, logged-in user, home directory, uptime, current date/time, and the open-source license covering the OS.
 
@@ -76,7 +76,7 @@ Displays a welcome screen with distro name, kernel version, logged-in user, home
 
 ---
 
-### Script 2 — FOSS Package Inspector
+### Script 2: FOSS Package Inspector
 
 Checks whether Git is installed on the system, displays its version and license info, and prints a philosophy note using a `case` statement.
 
@@ -93,7 +93,7 @@ PACKAGE="git"   # change to: apache2, firefox, vlc, mysql, python3, etc.
 
 ---
 
-### Script 3 — Disk and Permission Auditor
+### Script 3: Disk and Permission Auditor
 
 Loops through a list of important system directories and reports permissions, ownership, and disk usage. Also checks for Git's system and user config files.
 
@@ -105,7 +105,7 @@ Loops through a list of important system directories and reports permissions, ow
 
 ---
 
-### Script 4 — Log File Analyzer
+### Script 4: Log File Analyzer
 
 Reads a log file line by line, counts how many lines contain a specified keyword, and prints the last 5 matching lines.
 
@@ -130,7 +130,7 @@ sudo ./script4_log_analyzer.sh /var/log/auth.log failed
 
 ---
 
-### Script 5 — Open Source Manifesto Generator
+### Script 5: Open Source Manifesto Generator
 
 Interactively asks you three questions and generates a personalised open-source philosophy statement, saving it to a `.txt` file.
 
@@ -164,7 +164,7 @@ Interactively asks you three questions and generates a personalised open-source 
 ## Notes for the Evaluator
 
 - All scripts are tested on Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
-- Scripts use `dpkg` (Debian/Ubuntu) rather than `rpm` (RHEL/Fedora) as the target system is Debian-based.
+- Scripts use `dpkg` rather than `rpm` as the target system is Debian-based.
 - Script 4 includes a retry loop if the log file is not immediately found, and gracefully handles empty files.
 - Every non-obvious line in each script includes an inline comment explaining what it does.
 - Script 5 demonstrates the alias concept via a comment block, as aliases are shell-session constructs and cannot be meaningfully embedded in a non-interactive script.
