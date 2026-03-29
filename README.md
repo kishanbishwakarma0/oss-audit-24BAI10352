@@ -163,18 +163,18 @@ Interactively asks you three questions and generates a personalised open-source 
 
 ## Notes for the Evaluator
 
-- All scripts are tested on Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
-- Scripts use `dpkg` rather than `rpm` as the target system is Debian-based.
-- Script 4 includes a retry loop if the log file is not immediately found, and gracefully handles empty files.
-- Every non-obvious line in each script includes an inline comment explaining what it does.
-- Script 5 demonstrates the alias concept via a comment block, as aliases are shell-session constructs and cannot be meaningfully embedded in a non-interactive script.
+1. All scripts are tested on Ubuntu 22.04 LTS and Ubuntu 24.04 LTS.
+2. Scripts use `dpkg` rather than `rpm` as the target system is Debian-based.
+3. Script 4 includes a retry loop if the log file is not immediately found, and gracefully handles empty files.
+4. Every non-obvious line in each script includes an inline comment explaining what it does.
+5. Script 5 demonstrates the alias concept via a comment block, as aliases are shell-session constructs and cannot be meaningfully embedded in a non-interactive script.
 
 ---
 
 ## References
 
-- GNU GPL v2: https://www.gnu.org/licenses/gpl-2.0.html
-- Git official documentation: https://git-scm.com/docs
-- Pro Git book (free): https://git-scm.com/book
-- The Linux Command Line: https://linuxcommand.org/tlcl.php
-- GNU Bash Manual: https://www.gnu.org/software/bash/manual/
+1. GNU GPL v2: https://www.gnu.org/licenses/gpl-2.0.html
+2. Git official documentation: https://git-scm.com/docs
+3. Pro Git book (free): https://git-scm.com/book
+4. The Linux Command Line: https://linuxcommand.org/tlcl.php
+5. GNU Bash Manual: https://www.gnu.org/software/bash/manual/
