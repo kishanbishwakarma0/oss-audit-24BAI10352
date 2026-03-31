@@ -1,7 +1,7 @@
 # oss-audit-24BAI10352
 
 **Open Source Software: NGMC Capstone Project**
-**VIT | Course: Open Source Software**
+**VIT | Course: Open Source Software | Max Marks: 100**
 
 ---
 
